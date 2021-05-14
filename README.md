@@ -1,4 +1,4 @@
-## Project 1: Data science blabla
+## Project 1: Data science
 * asd
 * asd
 * asd
