@@ -27,5 +27,14 @@ Table of Contents:  Overview Project Motivation Technical Aspect Major Results C
       <description>Overview:  It is a real-time face mask detection project, developed in python, using Deep Learning and OpenCV. I used the transfer learning technique. (MobileNetV2 architecture) Used several preprocessing technique, such as one-hot encoding the labels, or constructing the training image for data augmentation. The final model performs absolutely amazing, with almost a 100% accuracy.  Final Model:  MobileNetV2 architecture. Compiled with an adam optimizer, and binary crossentropy loss function.</description>
     </item>
     
+    <item>
+      <title>Project 3: Coming Soon...</title>
+      <link>https://nctung4.github.io/Project_Portfolio/post/project-3/</link>
+      <pubDate>Fri, 14 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://nctung4.github.io/Project_Portfolio/post/project-3/</guid>
+      <description>Coming Soon.. </description>
+    </item>
+    
   </channel>
 </rss>
