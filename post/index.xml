@@ -8,32 +8,49 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Mar 2021 12:00:00 -0500</lastBuildDate><atom:link href="https://nctung4.github.io/Project_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 1: Customer Segmentation and Classification</title>
-      <link>https://nctung4.github.io/Project_Portfolio/post/project-1/</link>
-      <pubDate>Sun, 16 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://nctung4.github.io/Project_Portfolio/post/project-1/</guid>
-      <description>The focus of this project is on cluster analysis, and classification modeling on a customer database.
-Dataset This dataset was published on kaggle, available here.
-Table of Contents:  Overview Project Motivation Technical Aspect Major Results Credits  Overview This notebook&amp;rsquo;s purpose is to develop a customer segmentation model to define a marketing strategy. The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months.</description>
-    </item>
-    
-    <item>
-      <title>Project 2: Face Mask Detection</title>
-      <link>https://nctung4.github.io/Project_Portfolio/post/project-2/</link>
-      <pubDate>Sat, 15 May 2021 11:00:59 -0400</pubDate>
-      
-      <guid>https://nctung4.github.io/Project_Portfolio/post/project-2/</guid>
-      <description>Overview:  It is a real-time face mask detection project, developed in python, using Deep Learning and OpenCV. I used the transfer learning technique. (MobileNetV2 architecture) Used several preprocessing technique, such as one-hot encoding the labels, or constructing the training image for data augmentation. The final model performs absolutely amazing, with almost a 100% accuracy.  Final Model:  MobileNetV2 architecture. Compiled with an adam optimizer, and binary crossentropy loss function.</description>
-    </item>
-    
-    <item>
-      <title>Project 3: Coming Soon...</title>
+      <title>Project 1: Car Price Prediction</title>
       <link>https://nctung4.github.io/Project_Portfolio/post/project-3/</link>
-      <pubDate>Fri, 14 May 2021 11:00:59 -0400</pubDate>
+      <pubDate>Sun, 16 May 2021 11:00:59 -0400</pubDate>
       
       <guid>https://nctung4.github.io/Project_Portfolio/post/project-3/</guid>
-      <description>Coming Soon.. </description>
+      <description>Link to GitHub repository.
+Car Price Prediction This project is a end-to-end data science project, from data collecting, to making it into production.
+Project Overview  Created a tool that estimates car prices (RMSE:~293K, MAE:~293K HUF) to help people negotiate or estimate the specific price, when they want to either buy or sell a car. Used web scraping techniques to get the data from hasznaltauto.hu. (hungarian car trading website) Applied several data cleaning and feature engineering techniques, such as handling missing data or feature scaling Optimized multiple linear regression, support vector regression, random forest regression, and xgboost.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Customer Segmentation and Classification</title>
+      <link>https://nctung4.github.io/Project_Portfolio/post/project-1/</link>
+      <pubDate>Sat, 15 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://nctung4.github.io/Project_Portfolio/post/project-1/</guid>
+      <description>Link to GitHub repository.
+The focus of this project is on cluster analysis, and classification modeling on a customer database.
+Dataset This dataset was published on kaggle, available here.
+Resources used Python Version: 3.8.5
+Packages: pandas, numpy, sickit-learn, matplotlib, xgboost, seaborn, joblib
+Requirements: pip install -r requirements.txt
+Table of Contents:  Overview Project Motivation Technical Aspect Major Results Credits  Overview This notebook&amp;rsquo;s purpose is to develop a customer segmentation model to define a marketing strategy.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Face Mask Detection</title>
+      <link>https://nctung4.github.io/Project_Portfolio/post/project-2/</link>
+      <pubDate>Fri, 14 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://nctung4.github.io/Project_Portfolio/post/project-2/</guid>
+      <description>Link to GitHub repository.
+Overview:  It is a real-time face mask detection project, developed in python, using Deep Learning and OpenCV. I used the transfer learning technique. (MobileNetV2 architecture) Used several preprocessing technique, such as one-hot encoding the labels, or constructing the training image for data augmentation. The final model performs absolutely amazing, with almost a 100% accuracy.  Resources used: Python Version: 3.8.5
+Packages: numpy, opencv-python, tensorflow, matplotlib, sickit-learn</description>
+    </item>
+    
+    <item>
+      <title>Project 4: Coming Soon</title>
+      <link>https://nctung4.github.io/Project_Portfolio/post/project-4/</link>
+      <pubDate>Thu, 13 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://nctung4.github.io/Project_Portfolio/post/project-4/</guid>
+      <description>Coming soon.. </description>
     </item>
     
   </channel>
