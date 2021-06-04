@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Project 4: Coming Soon | Cong T. Nguyen</title>
+    <title>Project 4: Flu Time Series Forecast | Cong T. Nguyen</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Coming soon">
+    <meta name="description" content="Flu time series forecasting using traditional time series models and deep learning.">
     <meta name="generator" content="Hugo 0.83.1" />
     
     
@@ -32,20 +32,20 @@
 
     
     
-    <meta property="og:title" content="Project 4: Coming Soon" />
-<meta property="og:description" content="Coming soon" />
+    <meta property="og:title" content="Project 4: Flu Time Series Forecast" />
+<meta property="og:description" content="Flu time series forecasting using traditional time series models and deep learning." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nctung4.github.io/Project_Portfolio/post/project-4/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-05-13T11:00:59-04:00" />
 <meta property="article:modified_time" content="2021-05-13T11:00:59-04:00" /><meta property="og:site_name" content="Cong T. Nguyen" />
 
-<meta itemprop="name" content="Project 4: Coming Soon">
-<meta itemprop="description" content="Coming soon"><meta itemprop="datePublished" content="2021-05-13T11:00:59-04:00" />
+<meta itemprop="name" content="Project 4: Flu Time Series Forecast">
+<meta itemprop="description" content="Flu time series forecasting using traditional time series models and deep learning."><meta itemprop="datePublished" content="2021-05-13T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2021-05-13T11:00:59-04:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="1294">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project 4: Coming Soon"/>
-<meta name="twitter:description" content="Coming soon"/>
+<meta name="twitter:title" content="Project 4: Flu Time Series Forecast"/>
+<meta name="twitter:description" content="Flu time series forecasting using traditional time series models and deep learning."/>
 
 	
   </head>
@@ -56,8 +56,10 @@
    
   
 
-  <header>
-    <div class="bg-black">
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://nctung4.github.io/Project_Portfolio/images/flu_time_series/ts_icon.png');">
+    <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://nctung4.github.io/Project_Portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -125,6 +127,16 @@
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 4: Flu Time Series Forecast</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Flu time series forecasting using traditional time series models and deep learning.
+            </h2>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -145,7 +157,7 @@
 
 
 
-      <h1 class="f1 athelas mt3 mb1">Project 4: Coming Soon</h1>
+      <h1 class="f1 athelas mt3 mb1">Project 4: Flu Time Series Forecast</h1>
       
       
       <time class="f6 mv4 dib tracked" datetime="2021-05-13T11:00:59-04:00">May 13, 2021</time>
@@ -153,7 +165,196 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="coming-soon">Coming soon..</h2>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="flu-time-series-forecasting">Flu Time Series Forecasting</h1>
+<p>This is a time series forecasting project. I wanted to make a model which can be applied to flu time series forecasting. I downloaded the data from WHO public database. The data is ranging from 2010.01.01 to 2020.06.30, and it is focused on the European WHO region. It is a weekly data. I created the models in Rstudio, and for deep learning models (LSTM) I used python. The R code is <a href="https://github.com/nctung4/Flu_Time_Series_Forecasting/blob/main/Flu_forecast.md">here</a>, and the python notebook is <a href="https://github.com/nctung4/Flu_Time_Series_Forecasting/blob/main/LSTM_model.ipynb">here</a>.</p>
+<h3 id="project-overview">Project Overview</h3>
+<ul>
+<li>Downloaded 10 years time series data from WHO database.</li>
+<li>Preprocessed the time series data in R and Python.</li>
+<li>Analysed the data with decomposition, seasonality check, peak detection etc.</li>
+<li>Implemented 3 models in R. (STLF, ARIMA, TBATS)</li>
+<li>Implemented LSTM models in Python. (Vanilla LSTM, Stacked LSTM, Bidirectional LSTM, Stacked LSTM with relu activation function)</li>
+</ul>
+<p><strong>Final summary table of the model performance:</strong></p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/df_summary.png"/>
+</figure>
+
+<h3 id="resources-used">Resources used</h3>
+<p><strong>Python Version:</strong> 3.8.5 <!-- raw HTML omitted -->
+<strong>R Version:</strong> 4.0.2 <!-- raw HTML omitted -->
+<strong>Python Packages:</strong> pandas, numpy, tensorflow, matplotlib, sickit-learn, dataframe_image <!-- raw HTML omitted -->
+<strong>R Packages:</strong> forecast, ggplot2, dplyr, tidyr, zoo, lubridate<!-- raw HTML omitted -->
+<strong>Requirements:</strong> <code>pip install -r requirements.txt</code></p>
+<h3 id="table-of-contents">Table of contents:</h3>
+<ol>
+<li><a href="#project-motivation">Project Motivation</a></li>
+<li><a href="#technical-aspects">Technical Aspects</a></li>
+<li><a href="#major-insights">Major Insights</a>
+<ul>
+<li>3.1 <a href="#eda">EDA</a></li>
+<li>3.2 <a href="#modeling">Modeling</a></li>
+<li>3.3 <a href="#evaluation">Evaluation</a></li>
+</ul>
+</li>
+<li><a href="#credits">Credits</a></li>
+</ol>
+<h3 id="project-motivation">Project Motivation</h3>
+<p>The main purpose of this analysis and forecast is to get some information of the current situation of the flu viral infections. With the sufficient amount of data we would be able to perform a precise prediction of the flu cases in the future. With the results, we could potentially be prepared for every possible outcomes. Resources can be managed much more efficiently with knowing the precise estimates.</p>
+<h3 id="technical-aspects">Technical Aspects</h3>
+<ul>
+<li>I visualized the data using <strong>ggplot</strong>, <strong>matplotlib</strong> and <strong>Tableau</strong>.</li>
+<li>I preprocessed the data in R and Python</li>
+<li>I optimized 3 traditional time series model in R, and 4 different LSTM architecture in Python, using <strong>tensorflow</strong>.</li>
+</ul>
+<h3 id="major-insights">Major Insights</h3>
+<p>In this section, I will show the major insights of this project.</p>
+<h4 id="eda">EDA:</h4>
+<p>After implementing some data cleaning steps, I wanted to check the flu cases per countries. I analysed it in several dimensions. I checked that how many processed cases did the country had in the past 10 years, and within that how many positive cases were identified.</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/New_Map_cutted.png"/>
+</figure>
+
+<p>The bigger the rectangle, the more processed cases does the country have. The greener the rectangle, the lesser the positive case ratio.</p>
+<p>It was expected that where the population is high (for instance Russia, France), there would be more processed cases. In case of the Scandinavian countries, the high number of suspicious cases are also not surprising due to the cold climate, but here the positivity rate was not significant. There is a bigger problem in countries with small populations and high positivity rate. These countries are for instance Netherlands, Lithuania, Croatia, Romania, and Greece, where the positivity rate ranges from 35% to 65%. In the highly populated countries only Spain has a more serious positivity rate.</p>
+<p><strong>Flu cases weekly plot:</strong></p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-2-1.png"/>
+</figure>
+
+<p>On average there are approximately 12K processed cases in a week in the European region, and within that roughly 2.5K are positive cases.</p>
+<p>There are several types on flu viruses, the most common ones are type A and type B.</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-3-1.png"/>
+</figure>
+
+<p><strong>Seasonality:</strong>
+The next plots shows that our dataset is seasonal.</p>
+<p>Seasonality plot no. 1.:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-4-1.png"/>
+</figure>
+
+<p>Seasonality plot no. 2.:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-4-2.png"/>
+</figure>
+
+<p>Seasonality plot no. 3.:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-4-3.png"/>
+</figure>
+
+<p><strong>Decomposition of the data:</strong></p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-5-1.png"/>
+</figure>
+
+<h4 id="modeling">Modeling:</h4>
+<p>In the traditional time series models, we can say that the model used all of the information available, if the residuals satifies the following assumptions:</p>
+<ul>
+<li>They are not correlated with each other.</li>
+<li>The mean of the residuals are 0.</li>
+<li>The residuals have a constant variance.</li>
+<li>The residuals follow a normal distribution.</li>
+</ul>
+<p>In summary, we can say that the residuals must be a white noise process. We can check that with the <strong>Ljung-box test</strong>, whether it can be identified as white noise or not. If p&gt;=0.05, then we can say that the assumptions are satisfied. In R we can perform this test with the checkresiduals() method from the forecast library.</p>
+<p><strong>STLF model:</strong></p>
+<p>Ljung-box test:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-6-1.png"/>
+</figure>
+
+<p>p value: 0.7, assumtion is satisfied.</p>
+<p>STLF model forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-7-1.png"/>
+</figure>
+
+<p><strong>ARIMA model:</strong></p>
+<p>Ljung-box test:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-10-1.png"/>
+</figure>
+
+<p>p value: 0.99, assumtion is satisfied.</p>
+<p>ARIMA model forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-11-1.png"/>
+</figure>
+
+<p>The best ARIMA model is ARIMA(2,0,0)(1,1,0).</p>
+<p><strong>TBATS model:</strong></p>
+<p>Ljung-box test:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-12-1.png"/>
+</figure>
+
+<p>p value: 0.26, assumtion is satisfied.</p>
+<p>TBATS model forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-13-1.png"/>
+</figure>
+
+<p><strong>LSTM models:</strong></p>
+<p>Traditional neural networks do not have the ability, to use the information in the past, or we can also say that they do not have a memory cell, which helps the model to decide what is going to happen in the future.</p>
+<p>The solution for this issue is the RNN (Recurrent Neural Network). They are networks with loops in them, allowing information to persist. A recurrent neural network can be thought of as multiple copies of the same network, each passing a message to a successor.</p>
+<p><strong>Vanishing Gradient Problem:</strong></p>
+<p>In ANN the Gradient Descent algorithm finds the global minimum of the cost function for the network setup. Basically, the information travels through the neural network from input neurons to the output neurons, while the error is calculated and propagated back through the network to update the weights.</p>
+<p>In RNN all the neurons far back in time contributed in calculating the output. So in the backpropagation process, we have to go all the way back in time into these neurons. During the backprop, we need to pass the derivative from back to front, which involves multiplying a number less than 1 for many times. In RNN the network can be really deep, because we have to go all the way back in each time, therefore at some point the gradient will become extremely small  (almost zero), and eventually the neurons will stop learning.</p>
+<p>The RNN unfortunately is not capable of learning long term dependencies in practice. The LSTM networks are the solution for this issue.</p>
+<p><strong>Long Short Term Memory (LSTM):</strong></p>
+<p>The LSTM is a special kind of RNN, which is capable of handling long term dependencies. The standtard RNN has a very simple structure, for instance a single tanh layer. LSTM also a chain like structure like RNN, but it has 4 layers instead of one single layer. There are 4 parts of the LSTM network.</p>
+<p>It has a <strong>memory cell</strong>, which runs straight down the entire chain, with only some minor linear interactions. The <strong>forget gate layer&rsquo;s</strong> task is to decide what information we are going to throw away from the memory cell. The <strong>input gate layer</strong> decides what new information we are going to store in the memory cell. The last part is the <strong>output gate layer</strong>, which generates the output. This output will be based on our memory cell&rsquo;s state, but will be a filtered version.</p>
+<p>So the most important thing is that the LSTM does have the ability to remove or add information into the memory cell, carefully regulated by structures called gates.</p>
+<p><strong>LSTM network:</strong></p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM2.png"/>
+</figure>
+
+<p><strong>LSTM model 1.:</strong></p>
+<p>The first LSTM model I tried is the Vanilla LSTM, which has a single LSTM network.</p>
+<p>Input - LSTM(50) - Dropout - Output</p>
+<p>The learning plot of the model:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM_model1_training_plot.png"/>
+</figure>
+
+<p>Forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM1_Forecast.png"/>
+</figure>
+
+<p><strong>LSTM model 2.:</strong></p>
+<p>The second LSTM model is a stacked model.</p>
+<p>Input - LSTM(50) - Dropout - LSTM(50) - Dropout - Output</p>
+<p>The learning plot of the model:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM_model2_training_plot.png"/>
+</figure>
+
+<p>Forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM2_forecast.png"/>
+</figure>
+
+<p><strong>LSTM model 3.:</strong></p>
+<p>The third model I tried, is the Bidirectional LSTM model.</p>
+<p>Input - Bidirectional(LSTM(50)) - Dropout - Output</p>
+<p>The learning plot of the model:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM_model3_training_plot.png"/>
+</figure>
+
+<p>Forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM3_forecast.png"/>
+</figure>
+
+<p><strong>LSTM model 4.:</strong></p>
+<p>The fourth model is a stacked LSTM, but with a relu activation function.</p>
+<p>Input - LSTM(50) - Dropout - LSTM(50) - Dropout - Output</p>
+<p>The learning plot of the model:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM_model4_training_plot.png"/>
+</figure>
+
+<p>Forecast:</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/LSTM4_forecast.png"/>
+</figure>
+
+<h4 id="evaluation">Evaluation:</h4>
+<p>I checked the accuracy of the models with mostly the RMSE and MAE. The following table shows the final results. We can see that the neural networks have a much better performance on the dataset.</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/df_summary.png"/>
+</figure>
+
+<h3 id="credits">Credits:</h3>
+<ul>
+<li><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">https://colah.github.io/posts/2015-08-Understanding-LSTMs/</a></li>
+<li><a href="https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/">https://machinelearningmastery.com/gentle-introduction-long-short-term-memory-networks-experts/</a></li>
+<li><a href="https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/">https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/</a></li>
+<li><a href="https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/">https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/</a></li>
+<li><a href="https://otexts.com/fpp2/">https://otexts.com/fpp2/</a></li>
+<li><a href="https://www.superdatascience.com/blogs/recurrent-neural-networks-rnn-the-vanishing-gradient-problem">https://www.superdatascience.com/blogs/recurrent-neural-networks-rnn-the-vanishing-gradient-problem</a></li>
+</ul>
 <ul class="pa0">
   
 </ul>

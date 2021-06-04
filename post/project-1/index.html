@@ -42,7 +42,7 @@
 <meta itemprop="name" content="Project 2: Customer Segmentation and Classification">
 <meta itemprop="description" content="Customer segmentation for defining marketing strategies."><meta itemprop="datePublished" content="2021-05-15T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2021-05-15T10:58:08-04:00" />
-<meta itemprop="wordCount" content="739">
+<meta itemprop="wordCount" content="816">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project 2: Customer Segmentation and Classification"/>
 <meta name="twitter:description" content="Customer segmentation for defining marketing strategies."/>
@@ -167,6 +167,13 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><a href="https://github.com/nctung4/Customer_Segmentation">Link to GitHub repository.</a></p>
 <p>The focus of this project is on cluster analysis, and classification modeling on a customer database.</p>
+<h3 id="project-summary">Project Summary</h3>
+<ul>
+<li>Used the k-Means algorithm on the cleaned dataset for creating the clusters.</li>
+<li>Decided the optimal number of clusters with the elbow method and silhouette scores.</li>
+<li>Optimized several classification models with grid search. (KNN, SVC, Decision Tree, Random Forest, XGBoost, Logistic Regression etc.)</li>
+<li>I applied a voting classifier ensemble technique, to have the most accurate result.</li>
+</ul>
 <h3 id="dataset">Dataset</h3>
 <p>This dataset was published on kaggle, available <a href="https://www.kaggle.com/arjunbhasin2013/ccdata">here</a>.</p>
 <h3 id="resources-used">Resources used</h3>
@@ -221,7 +228,7 @@ It is good for us, because in supervised learning the stronger the correlation, 
 
 <p>From the elbow method we can see that the optimal number of cluster is around 5.-7. After that, I checked the silhouette score for each cluster, and there were no significance difference at all. Therefore I chose the number 6, because it had the most balanced result.</p>
 <p><strong>Classification:</strong></p>
-<p>The most accurate final models were the Support Vector Classifier, and the Logistic Regression. They both had approximately 98% accuracy, on the dataset.</p>
+<p>The most accurate final models were the Support Vector Classifier, and the Logistic Regression. They both had approximately 98% accuracy, on the dataset. In the future I will check the AUC as well, which is a far more sophisticated indicator than the accuracy.</p>
 <p><strong>Support Vector Classifier:</strong></p>
 <p>Confusion matrix:</p>
 <figure><img src="https://nctung4.github.io/Project_Portfolio/images/customer_segmentation/Confusion_matrix_SVM.png"/>
