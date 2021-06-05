@@ -42,7 +42,7 @@
 <meta itemprop="name" content="Project 4: Flu Time Series Forecast">
 <meta itemprop="description" content="Flu time series forecasting using traditional time series models and deep learning."><meta itemprop="datePublished" content="2021-05-13T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2021-05-13T11:00:59-04:00" />
-<meta itemprop="wordCount" content="1298">
+<meta itemprop="wordCount" content="1370">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project 4: Flu Time Series Forecast"/>
 <meta name="twitter:description" content="Flu time series forecasting using traditional time series models and deep learning."/>
@@ -243,6 +243,18 @@ The next plots shows that our dataset is seasonal.</p>
 <figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/unnamed-chunk-5-1.png"/>
 </figure>
 
+<p><strong>Anomaly detection:</strong></p>
+<p>I used the Seasonal method to identify the potential anomalies in the dataset.
+I checked the standard deviation in each month. Where there is a significant amount of deviation, there might be an anomaly existing.</p>
+<figure><img src="https://nctung4.github.io/Project_Portfolio/images/flu_time_series/Anomaly_detect.png"/>
+</figure>
+
+<p>We can see from the graph that January and February might have an anomaly.</p>
+<p>I did futher standard deviation analysis on these month, and the final 2 anomalies are the following:</p>
+<ul>
+<li>2019-01-28: 24017</li>
+<li>2019-02-04: 27344</li>
+</ul>
 <h4 id="modeling">Modeling:</h4>
 <p>In the traditional time series models, we can say that the model used all of the information available, if the residuals satifies the following assumptions:</p>
 <ul>
